@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: #dfdcdf;
+    background-image: url('../img/fondos/inicio/fondo_inicio2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+a:hover{
+    color: orange;
+}
+.logo img{
+    width: 80px;
+    border-radius: 5px;
+}
+
+/*==============HEADER===========*/
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.links h4{
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.aliado{
+    display: flex;
+    justify-content: space-around;
+}
+/*===============DROPDOWN MENU===========*/
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dropdown_menu.open{
+    height: 240px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*===================== HERO ================*/
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    width: 50%;
+    margin: auto;
+    
+    
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+/*============VIDEO ============*/
+main section video source{
+    border-radius: 10px;
+}
+/*=============WHATSAPP================*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #FFF;
+  background-color:#1ab152;
+    
+    animation: shake 1s;
+
+ 
+  animation-iteration-count: infinite;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.pulse{
+    animation: pulse-animation 2s infinite;
+}
+@keyframes pulse-animation {
+    0% {
+     box-shadow: 0 0 0 0px #08100bfa; 
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+  
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+  }
+  /*============INFORMACION 1===================*/
+.info {
+    display: flex;
+    align-items: center;
+    padding: 40px 0px 15px 150px;
+    margin-top: 147px; 
+    
+    
+}
+.info .info-img{
+    
+    width: 30%;
+   padding-right: 40px;
+
+}
+.info-img {
+    width: 70%;
+    
+}
+.info-img img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    
+    
+}
+.info-txt {
+    width: 50%;
+    
+    text-align: center;
+}
+.info-txt h4{
+    font-size: 35px;
+    color: #000;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+.info-txt p{
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+}
+.info-txt .btn{
+    background-color: #1ab152;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*============INFORMACION 2===================*/
+.info2 {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    
+   
+    
+}
+.info2 .info2-img{
+    width: 30%;
+    padding-left: 40px;
+
+}
+.info2-img {
+    width: 70%;
+    
+}
+.info2-img img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    
+    
+}
+.info2-txt {
+    width: 50%;
+    padding-left: 140px;
+    text-align: center;
+}
+.info2-txt h4{
+    font-size: 35px;
+    color: #000;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+.info2-txt p{
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+}
+.info2-txt .btn{
+    background-color: #1ab152;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*============INFORMACION 3===================*/
+.info3 {
+    display: flex;
+    align-items: center;
+    padding: 40px 0px 15px 150px;
+    
+    
+    
+}
+.info3 .info3-img{
+    
+    width: 30%;
+   padding-right: 40px;
+
+}
+.info3-img {
+    width: 70%;
+    
+}
+.info3-img img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    
+    
+}
+.info3-txt {
+    width: 50%;
+    
+    text-align: center;
+}
+.info3-txt h4{
+    font-size: 35px;
+    color: #000;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+.info3-txt p{
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+}
+.info3-txt .btn{
+    background-color: #1ab152;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*============INFORMACION 4===================*/
+.info4 {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    
+   
+    
+}
+.info4 .info4-img{
+    width: 30%;
+    padding-left: 40px;
+
+}
+.info4-img {
+    width: 70%;
+    
+}
+.info4-img img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    
+    
+}
+.info4-txt {
+    width: 50%;
+    padding-left: 140px;
+    text-align: center;
+}
+.info4-txt h4{
+    font-size: 35px;
+    color: #000;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    
+}
+.info4-txt p{
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+}
+.info4-txt .btn{
+    background-color: #1ab152;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*============INFORMACION 5===================*/
+.info5 {
+    display: flex;
+    align-items: center;
+    padding: 40px 0px 15px 150px;
+    
+    
+    
+}
+.info5 .info5-img{
+    
+    width: 30%;
+   padding-right: 40px;
+
+}
+.info5-img {
+    width: 70%;
+    
+}
+.info5-img img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    
+    
+}
+.info5-txt {
+    width: 50%;
+    
+    text-align: center;
+}
+.info5-txt h4{
+    font-size: 35px;
+    color: #000;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+.info5-txt p{
+    font-size: 18px;
+    color: #a7a7a7;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.info5-txt .btn{
+    background-color: #1ab152;
+    padding: 10px;
+    border-radius: 10px;
+}
+.info5 strong{
+    color: #000;
+}
+/*==========TITULOS================*/
+.titulo{
+    padding: 40px 0px;
+}
+.titulo-txt h4{
+    font-size: 25px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.titulo-txt{
+    display: flex;
+    justify-content: space-around;
+}
+.txt{
+    color: #FFF;
+}
+.txt h4{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.txt a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #A7A7A7;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+/*============ICONOS DE BOOSTRAP*/
+.edificio, .money, .light{
+    font-size: 35px;
+}
+.rede{
+    font-size: 30px;
+  
+}
+
+.rede1{
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+/*==============FOOTER =====================*/
+.footer{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #000;
+}
+.footer img{
+    border-radius: 10px;
+}
+footer{
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 0px;
+}
+/*===========RESPONSIVE============*/
+@media(max-width: 992px){
+    .navbar .links{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+    }
+    .dropdown_menu{
+        display: block;
+    }
+}
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}

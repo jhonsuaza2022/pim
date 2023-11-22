@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cuerpoR{
+    height: 100vh;
+    background-color: #000;
+    background-image: url('../img/fondos/repuestos/fondo_repuestos.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+.logo img{
+    width: 80px;
+    border-radius: 5px;
+}
+hr{
+    margin: 0!important;
+}
+.titulos_repuestos{
+    color: #FFF;
+}
+/*==============HEADER===========*/
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+header a:hover{
+    color: orange;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.links h4{
+    color: #000;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.aliado{
+    display: flex;
+    justify-content: space-around;
+}
+/*===============DROPDOWN MENU===========*/
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dropdown_menu.open{
+    height: 240px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*=============WHATSAPP================*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #FFF;
+  background-color:#1ab152;
+    
+    animation: shake 1s;
+
+ 
+  animation-iteration-count: infinite;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.pulse{
+    animation: pulse-animation 2s infinite;
+}
+@keyframes pulse-animation {
+    0% {
+     box-shadow: 0 0 0 0px #08100bfa; 
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+  
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+/*============ICONOS DE BOOSTRAP*/
+.rede{
+    font-size: 30px;
+  
+}
+
+.rede1{
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+/*===========RESPONSIVE============*/
+@media(max-width: 992px){
+    .navbar .links{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+    }
+    .dropdown_menu{
+        display: block;
+    }
+    .contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+   
+}
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
+/*===================== HERO ================*/
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    width: 50%;
+    margin: auto;
+    
+    
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/*==============FOOTER =====================*/
+.footer{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #fff;
+    top: 30px;
+}
+.footer img{
+    border-radius: 10px;
+}
+footer{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 15px 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+.footer a:hover{
+    color: orange;
+}
+/*===============CARRUSEL==============*/
+/* --- --- CONTENEDOR PRINCIPAL --- --- */
+
+.contenido-principal {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.contenido-principal__imagen {
+	vertical-align: top;
+	margin-right: 20px;
+	width: 50%;
+	max-width: 550px;
+}
+
+.contenido-principal__contenedor {
+	width: 50%;
+}
+
+.contenido-principal__titulo {
+	font-weight: normal;
+	font-size: 28px;
+}
+
+.contenido-principal__resumen {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	color: #686868;
+}
+
+/* --- --- CAROUSEL --- --- */
+
+.contenedor {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+    margin-top: 212px;
+    
+    border-radius: 10px;
+    padding: 15px 0px 15px 15px;
+    margin-bottom: 0!important;
+}
+.contenido-principal{
+    background-color: #dfdcdf;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.carousel{
+    background-color: #dfdcdf;
+    padding: 30px;
+    border-radius: 5px;
+}
+.contenedor img{
+    width: 450px;
+    height: 250px;
+    padding: 0px 5px;
+   
+   
+}
+.contenido-principal img{
+    border-radius: 10px;
+}
+
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #000;
+	opacity: 50%;
+    font-size: 30px;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: -30px;
+}
+
+.carousel__siguiente {
+	right: -30px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #000;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}
+/*========================PARTE DE LAS SECCIONES MOTORES==========*/
+.uno img{
+    width: 300px;
+}
+.resumen_motores_img{
+    display: flex;
+    justify-content: space-around;
+}
+/*========================PARTE DE LAS SECCIONES FILTROS==========*/
+.resumen_filtros_img{
+    display: flex;
+    justify-content: space-around;
+}
+.dos img{
+    width: 300px
+
+}
+/*========================PARTE DE LAS SECCIONES SISTEMA DE AIRE==========*/
+.resumen_sistema_aire_img{
+    display: flex;
+    justify-content: space-around;
+}
+.tres img{
+    width: 300px
+}
+/*========================PARTE DE LAS SECCIONES FRENOS==========*/
+.resumen_frenos_img{
+    display: flex;
+    justify-content: space-around;
+}
+.cuatro img{
+    width: 300px
+
+}
+/*========================PARTE DE LAS SECCIONES MAQUINARIA PESADA==========*/
+.resumen_maquinaria_pesada_img{
+    display: flex;
+    justify-content: space-around;
+}
+.cinco img{
+    width: 300px
+
+}
+/*========================PARTE DE LAS SECCIONES MANGUERAS==========*/
+.resumen_mangueras_img{
+    display: flex;
+    justify-content: space-around;
+}
+.seis img{
+    width: 300px
+
+}

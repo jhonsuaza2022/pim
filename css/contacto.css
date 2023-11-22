@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contacto{
+    height: 100vh;
+    background-color: #dfdcdf;
+    background-image: url('../img/fondos/contacto/contacto.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    
+}
+a:hover{
+    color: orange;
+}
+.logo img{
+    width: 80px;
+    border-radius: 5px;
+}
+/*==============HEADER===========*/
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+header a:hover{
+    color: orange;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+/*===============DROPDOWN MENU===========*/
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dropdown_menu.open{
+    height: 240px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*===================== HERO ================*/
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    width: 50%;
+    margin: auto;
+    
+    
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+/*=============WHATSAPP================*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #FFF;
+  background-color:#1ab152;
+    
+    animation: shake 1s;
+
+ 
+  animation-iteration-count: infinite;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.pulse{
+    animation: pulse-animation 2s infinite;
+}
+@keyframes pulse-animation {
+    0% {
+     box-shadow: 0 0 0 0px #08100bfa; 
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+  
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+/*============ICONOS DE BOOSTRAP*/
+.edificio, .money, .light{
+    font-size: 35px;
+}
+.rede{
+    font-size: 30px;
+  
+}
+
+.rede1{
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+/*===========RESPONSIVE============*/
+@media(max-width: 992px){
+    .navbar .links{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+    }
+    .dropdown_menu{
+        display: block;
+    }
+}
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
+/*==========================MAPA=============*/
+.mapa{
+    margin-top: 129px;
+}
+
+/*======================SECCION FORMULARIO*/
+main{
+    padding-top: 15px;
+}
+.seccion-formulario .principal{
+    margin: auto;
+    
+}
+h3{
+    color: rgb(37, 37, 37);
+    
+}
+p{
+    color: #575656;
+}
+/*==========================MAPA ===================*/
+.map{
+    filter: grayscale(100%) invert(92%) contrast(93%);
+   
+}
+/*==============FOOTER =====================*/
+.footer{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #000;
+}
+.footer img{
+    border-radius: 10px;
+}
+footer{
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.footer a:hover{
+    color: orange;
+}
+hr{
+    margin: 0!important;
+}
+.links h4{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.aliado{
+    display: flex;
+    justify-content: space-around;
+}
+.obligatorio{
+    color: red;
+    font-size: 20px;
+    
+}
