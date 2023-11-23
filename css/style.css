@@ -25,6 +25,7 @@ a:hover{
 }
 .logo img{
     width: 80px;
+    border: 5px dashed red;
     border-radius: 5px;
 }
 .datos a:hover{

@@ -25,6 +25,7 @@ a:hover{
 }
 .logo img{
     width: 80px;
+    border: 5px dashed red;
     border-radius: 5px;
 }
 /*==============HEADER===========*/
@@ -38,7 +39,7 @@ header a{
     font-size: 1rem;
 }
 header a:hover{
-    color: orange;
+    color: rgb(255, 0, 0);
 }
 .navbar{
     width: 100%;
@@ -260,7 +261,7 @@ footer{
     font-size: 1rem;
 }
 .footer a:hover{
-    color: orange;
+    color: rgb(255, 0, 0);
 }
 hr{
     margin: 0!important;
