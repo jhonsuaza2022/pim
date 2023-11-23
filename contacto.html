@@ -21,7 +21,7 @@
                 <li><a href="repuestos.html"><i class="fa-solid fa-gear"></i> Repuestos</a></li>
                 <li><a href="asesorias.html"><i class="fa-solid fa-user-tie"></i> Asesorias</a></li>
                 <li><a href="servicios.html"><i class="fa-solid fa-people-arrows"></i> Servicios</a></li>
-                <li><a href="contacto.html"><i class="bi bi-file-person-fill"></i> Contacto</a></li>
+                <li><a href="contacto.html"><i class="bi bi-file-person-fill"></i> Contactanos</a></li>
                 
             </ul>
             <div class="toggle_btn">
@@ -33,14 +33,15 @@
             <li><a href="repuestos.html"><i class="fa-solid fa-gear"></i> Repuestos</a></li>
             <li><a href="asesorias.html"><i class="fa-solid fa-user-tie"></i> Asesorias</a></li>
             <li><a href="servicios.html"><i class="fa-solid fa-people-arrows"></i> Servicios</a></li>
-            <li><a href="contacto.html"><i class="bi bi-file-person-fill"></i> Contacto</a></li>
+            <li><a href="contacto.html"><i class="bi bi-file-person-fill"></i> Contactanos</a></li>
            
         </div>
     </header>
     <main>
         <section id="hero">
             <h1>Contacto</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque commodi veniam facilis! Suscipit explicabo provident porro quis corporis ipsum, veritatis alias repellat dolore voluptas cum. Corrupti vero aliquid eligendi sint?</p>
+            <p>Confia en PIM Proyectos para mantener tu flota de movimiento. Estamos aque para ser tu socio confiable en el éxito operativo de tu empresa. <br>
+            Descubre cómo podemos mantener tu maquinaria en su mejor forma hoy.</p>
         </section>
     </main>
     <section class="mapa">
@@ -49,31 +50,44 @@
     <main>
     <section class="seccion-formulario">
         <div class="container row principal">
-            <div class="col-3">
+            <div class="col-4">
                 <div class="form-group">
                     <h3><i class="bi bi-telephone-fill"></i> Telefonos:</h3>
-                    <p>4410538</p>
-                    <p>4410538</p>
+                    <ul class="telefonos">
+                        <li>+57 320 5138562</li>
+                        <li>+57 324 4879038</li>
+                    </ul>
                 </div>
                 <div class="form-group">
                     <h3><i class="fa-solid fa-envelope"></i> E-mail:</h3>
-                    <p>pimgerencia@gmail.com</p>
+                    <ul class="correos">
+                        <li>pimgerencia@gmail.com</li>
+                        <li>pimadmon1@gmail.com</li>
+                    </ul>
                 </div>
                 <div class="form-group">
                     <h3><i class="bi bi-clock-fill"></i> Horarios:</h3>
-                    <p>pimgerencia@gmail.com</p>
+                    <ul class="horario">
+                        <li>Lunes a Viernes de 7:30 AM a 5:00 PM</li>
+                        <li>Sábados de 7:30 AM a 2:00 PM</li>
+                    </ul>
                 </div>
                 <div class="form-group">
                     <h3><i class="fa-solid fa-building"></i> Oficina:</h3>
-                    <p>pimgerencia@gmail.com</p>
+                    <ul class="oficina">
+
+                    </ul>
                 </div>
                 
             </div>
-            <div class="col-5">
+            <div class="col-4">
+                <!--=====================HENRY====================
                 <form action="https://formsubmit.co/d938748c0e4cfefc66a2d7cdfb5db02f" method="POST">
+                ==-->
+                <form action="https://formsubmit.co/jhonvoy2022@gmail.com" method="POST" id="miFormulario">
                     <div class="form-group ">
                         <label for="nombre">Nombres: <span class="obligatorio">*</span></label>
-                        <input type="text" id="nombre" placeholder="Jhon..." class="form-control" name="nombre" required> 
+                        <input type="text" id="nombre" placeholder="Jhon..." class="form-control" name="nombre"> 
                     </div>
                     <div class="form-group">
                         <label for="apellido">Apellidos:</label>
@@ -89,7 +103,7 @@
                     </div>
 
                     <br>
-                    <input type="submit" value="Enviar" class="btn btn-dark">
+                    <input type="submit" value="Enviar" class="btn btn-dark" onclick="validarFormulario()">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
                 
@@ -97,11 +111,11 @@
             <div class="col-4">
                 <div class="form-group">
                     <label for="telefono">Telefono: <span class="obligatorio">*</span></label>
-                    <input type="number" id="telefono" placeholder="000000" class="form-control" name="telefono" required> 
+                    <input type="number" id="telefono" placeholder="000000" class="form-control" name="telefono" > 
                 </div>
                 <div class="form-group">
                     <label for="empresa">Empresa: <span class="obligatorio">*</span></label>
-                    <input type="text" id="empresa" class="form-control" name="empresa" required> 
+                    <input type="text" id="empresa" class="form-control" name="empresa" > 
                 </div>
                 <div class="form-group">
                     <label for="ciudad">Ciudad:</label>
@@ -110,7 +124,7 @@
                 <div class="form-group">
                     <label for="info">Como Podemos Ayudarte: <span class="obligatorio">*</span></label>
                     <br>
-                    <textarea name="informacion" id="info" rows="4" placeholder="Escribenos Aqui" required class="form-control"></textarea>
+                    <textarea name="informacion" id="info" rows="4" placeholder="Escribenos Aqui" class="form-control"></textarea>
                 </div>
                 
             </div>
@@ -136,9 +150,9 @@
             </li>
             <br>
             <div class="redes">
-                <li><a href="https://www.facebook.com/people/Pim-proyectos-de-ingenier%C3%ADa-y-mantenimiento-SAS/100063671738087/?locale=vi_VN"><i class="bi bi-facebook rede1" title="Facebook"></i> </a></li>
-                <li><a href="#"><i class="bi bi-youtube rede1" title="Youtube"></i> </a></li>
-                <li><a href="#"><i class="bi bi-tiktok rede1" title="TikTok"></i> </a></li>
+                <li><a href="https://www.facebook.com/people/Pim-proyectos-de-ingenier%C3%ADa-y-mantenimiento-SAS/100063671738087/?mibextid=ZbWKwL" target="_blank"><i class="bi bi-facebook rede1" title="Facebook"></i> </a></li>
+                <li><a href="https://www.instagram.com/pim_proyectos_sas/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="bi bi-instagram rede1" title="Instagram" target="_blank"></i> </a></li>
+                <li><a href="https://www.tiktok.com/@pim.proyectos?ug_source=op.auth&ug_term=Linktr.ee&utm_source=awyc6vc625ejxp86&utm_campaign=tt4d_profile_link&_r=1" target="_blank"><i class="bi bi-tiktok rede1" title="TikTok"></i> </a></li>
             </div>
         </ul>
     </div>
@@ -161,13 +175,16 @@
 
 
 
+    
     <!--------------------ICONO WHATSAPP----------------->
     <a href="https://api.whatsapp.com/send?phone=3017018532&text=Hola!%20En%20que%20te%20puedo%20colaborar" class="float pulse" target="_blank">
     <i class="fa fa-whatsapp my-float "></i>
-        
     
         
     <script src="https://kit.fontawesome.com/1bad092ecb.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="js/contacto.js"></script>
+    <!--LIBRERIA DE SWEETALERT JAVASCRIPT--> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

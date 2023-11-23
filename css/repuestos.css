@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Caveat:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +22,11 @@ hr{
     margin: 0!important;
 }
 .titulos_repuestos{
+    color: rgba(247, 14, 14, 0.452);
+    font-family: 'Caveat', cursive;
+    font-size: 2.2rem;
+}
+.reparaciones{
     color: #FFF;
 }
 /*==============HEADER===========*/
@@ -36,6 +42,7 @@ header a{
 header a:hover{
     color: orange;
 }
+
 .navbar{
     width: 100%;
     height: 60px;
@@ -196,9 +203,18 @@ section#hero{
 }
 
 #hero h1{
-    font-size: 3rem;
+    font-size: 4.5rem;
     margin-bottom: 1rem;
-    color: #fff;
+    color: #ffffff;
+    font-family: 'Arvo', serif;
+}
+#hero p{
+    font-family: cursive;
+    color: rgb(253, 253, 253);
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: rgba(10, 4, 4, 0.603);
+    border-radius: 10px;   
 }
 
 /*==============FOOTER =====================*/
@@ -224,7 +240,11 @@ footer{
     font-size: 1rem;
 }
 .footer a:hover{
-    color: orange;
+    color: rgb(255, 0, 0);
+}
+.datos a:hover{
+    color: #000000;
+    cursor: default;
 }
 /*===============CARRUSEL==============*/
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
@@ -350,30 +370,51 @@ footer{
 .carousel__indicadores .glider-dot.active {
 	opacity: 1;
 }
-/*========================PARTE DE LAS SECCIONES MOTORES==========*/
-.uno img{
-    width: 300px;
+figcaption{
+    text-align: center;
+    color: #dfdcdf;
 }
+/*========================PARTE DE LAS SECCIONES MOTORES==========*/
 .resumen_motores_img{
     display: flex;
     justify-content: space-around;
+    
 }
+.resumen_motores_img img{
+    width: 355px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid #dfdcdf27;
+    border-radius: 4px;
+}
+
 /*========================PARTE DE LAS SECCIONES FILTROS==========*/
 .resumen_filtros_img{
     display: flex;
     justify-content: space-around;
 }
-.dos img{
-    width: 300px
-
+.resumen_filtros_img img{
+    width: 355px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid #dfdcdf27;
+    border-radius: 4px;
 }
+
 /*========================PARTE DE LAS SECCIONES SISTEMA DE AIRE==========*/
 .resumen_sistema_aire_img{
     display: flex;
     justify-content: space-around;
 }
 .tres img{
-    width: 300px
+    width: 355px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid #dfdcdf27;
+    border-radius: 4px;
 }
 /*========================PARTE DE LAS SECCIONES FRENOS==========*/
 .resumen_frenos_img{
@@ -381,7 +422,12 @@ footer{
     justify-content: space-around;
 }
 .cuatro img{
-    width: 300px
+    width: 355px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid #dfdcdf27;
+    border-radius: 4px;
 
 }
 /*========================PARTE DE LAS SECCIONES MAQUINARIA PESADA==========*/
@@ -390,15 +436,27 @@ footer{
     justify-content: space-around;
 }
 .cinco img{
-    width: 300px
+    width: 355px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid #dfdcdf27;
+    border-radius: 4px;
 
 }
 /*========================PARTE DE LAS SECCIONES MANGUERAS==========*/
 .resumen_mangueras_img{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 25px;
 }
 .seis img{
-    width: 300px
+    width: 355px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border: 10px solid #dfdcdf27;
+    border-radius: 4px;
+    
 
 }

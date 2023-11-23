@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Caveat:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +26,15 @@ a:hover{
 .logo img{
     width: 80px;
     border-radius: 5px;
+}
+.telefonos li{
+    list-style: disc;  
+}
+.correos li{
+    list-style: disc;  
+}
+.horario li{
+    list-style: disc;  
 }
 /*==============HEADER===========*/
 header {
@@ -98,11 +108,19 @@ section#hero{
     
     
 }
-
 #hero h1{
-    font-size: 3rem;
+    font-size: 4.5rem;
     margin-bottom: 1rem;
-    color: #000;
+    color: #000000;
+    font-family: 'Arvo', serif;
+}
+#hero p{
+    font-family: cursive;
+    color: rgb(253, 253, 253);
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: rgba(3, 1, 1, 0.603);
+    border-radius: 10px;   
 }
 /*=============WHATSAPP================*/
 .float{
