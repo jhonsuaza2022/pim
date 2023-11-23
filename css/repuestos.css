@@ -389,6 +389,11 @@ figcaption{
     border: 10px solid #dfdcdf27;
     border-radius: 4px;
 }
+.contenedor_motores p{
+    color:#FFF;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
 
 /*========================PARTE DE LAS SECCIONES FILTROS==========*/
 .resumen_filtros_img{
