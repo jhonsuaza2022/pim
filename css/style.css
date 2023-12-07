@@ -679,6 +679,7 @@ footer{
         
     }
     .info-txt h4{
+        width: 100%;
         font-size: 25px;
     }
     .info-txt p{
@@ -705,12 +706,13 @@ footer{
     .info2-txt h4{
         font-size: 25px;
         margin-top: 0px;
-        width: 140%;
+        width: 160%;
         margin-left: -90px;
     }
     .info2-txt p{
-        width: 140%;
+        width: 160%;
         margin-left: -90px;
+
     }
     /*TERCERA IMAGEN Y TEXTO RESPONSIVE*/
 
