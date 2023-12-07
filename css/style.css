@@ -691,7 +691,7 @@ footer{
     }
     
     .info2-img img {
-        margin-top: 570px;
+        margin-top: -570px;
         margin-left: -345px;
         height:250px;
         width: 300px;
