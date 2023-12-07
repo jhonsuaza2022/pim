@@ -681,7 +681,6 @@ footer{
     .info-txt h4{
         width: 150%;
         font-size: 25px;
-        background-color: cadetblue;
         margin-left: -30px;
     }
     .info-txt p{
@@ -690,7 +689,7 @@ footer{
     }
     /*SEGUNDA IMAGEN Y TEXTO RESPONSIVE*/
     .info2{
-        margin-top: 300px;
+        margin-top: 320px;
     }
     
     .info2-img img {
@@ -703,7 +702,7 @@ footer{
     .info2-txt{
         width: 50%;
         margin-left: 55px;
-        margin-top: -100px;
+        margin-top: -120px;
         background-color: #999; 
     }
     .info2-txt h4{
