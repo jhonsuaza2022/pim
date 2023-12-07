@@ -700,9 +700,9 @@ footer{
         float: left;
     }
     .info2-txt{
-        width: 85%;
+        width: 100%;
         margin-left: 60px;
-        margin-top: -125px;
+        margin-top: -140px;
         background-color: #999; 
     }
     .info2-txt h4{
