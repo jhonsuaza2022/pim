@@ -681,6 +681,7 @@ footer{
     .info-txt h4{
         width: 100%;
         font-size: 25px;
+        background-color: cadetblue;
     }
     .info-txt p{
         margin-left: -20px;
@@ -708,8 +709,10 @@ footer{
         margin-top: 0px;
         width: 160%;
         margin-left: -90px;
+        background-color: burlywood;
     }
     .info2-txt p{
+        background-color: #1ab152;
         width: 160%;
         margin-left: -90px;
 
