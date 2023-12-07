@@ -682,7 +682,7 @@ footer{
         font-size: 25px;
     }
     .info-txt p{
-        margin-left: 0px;
+        margin-left: -20px;
         width: 140%;
     }
     /*SEGUNDA IMAGEN Y TEXTO RESPONSIVE*/
@@ -691,7 +691,7 @@ footer{
     }
     
     .info2-img img {
-        margin-top: -600px;
+        margin-top: 570px;
         margin-left: -345px;
         height:250px;
         width: 300px;
