@@ -683,7 +683,7 @@ footer{
     }
     .info-txt p{
         margin-left: 0px;
-        width: 120%;
+        width: 140%;
     }
     /*SEGUNDA IMAGEN Y TEXTO RESPONSIVE*/
     .info2{
@@ -691,7 +691,7 @@ footer{
     }
     
     .info2-img img {
-        margin-top: -200px;
+        margin-top: -600px;
         margin-left: -345px;
         height:250px;
         width: 300px;
