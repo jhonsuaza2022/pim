@@ -702,14 +702,14 @@ footer{
     .info2-txt{
         padding: 0px;
         margin-left: 65px;
-        margin-top: 0px;
+        margin-top: -180px;
         background-color: #999;
         width: 70%;
     }
     .info2-txt h4{
         font-size: 25px;
         margin-top: 0px;
-        width: 100%;
+        width: 140%;
         margin-left: 70px;
         background-color: burlywood;
         margin-bottom: 0px;
