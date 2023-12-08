@@ -702,8 +702,7 @@ footer{
     .info2-txt{
         padding: 0px;
         margin-left: 65px;
-        margin-top: -150px;
-        background-color: #999;
+        margin-top: -157px;
         width: 70%;
     }
     .info2-txt h4{
@@ -711,11 +710,9 @@ footer{
         margin-top: 0px;
         width: 140%;
         margin-left: 0px;
-        background-color: burlywood;
         margin-bottom: 20px;
     }
     .info2-txt p{
-        background-color: #1ab152;
         width: 140%;
         margin-left: 0px;
         text-align: center;
