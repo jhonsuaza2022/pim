@@ -693,7 +693,7 @@ footer{
     }
     
     .info2-img img {
-        margin-top: -650px;
+        margin-top: -450px;
         margin-left: -245px;
         height:250px;
         width: 300px;
@@ -710,7 +710,7 @@ footer{
         font-size: 25px;
         margin-top: 0px;
         width: 140%;
-        margin-left: 70px;
+        margin-left: 0px;
         background-color: burlywood;
         margin-bottom: 0px;
     }
