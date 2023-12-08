@@ -693,7 +693,7 @@ footer{
     }
     
     .info2-img img {
-        margin-top: -500px;
+        margin-top: -480px;
         margin-left: -295px;
         height:250px;
         width: 300px;
@@ -701,21 +701,22 @@ footer{
     }
     .info2-txt{
         padding: 0px;
-        margin-left: 60px;
-        margin-top: -140px;
-        background-color: #999; 
+        margin-left: 0px;
+        margin-top: -290px;
+        background-color: #999;
+        width: 70%;
     }
     .info2-txt h4{
         font-size: 25px;
         margin-top: 0px;
-        width: 160%;
+        width: 100%;
         margin-left: -90px;
         background-color: burlywood;
         margin-bottom: 0px;
     }
     .info2-txt p{
         background-color: #1ab152;
-        width: 160%;
+        width: 100%;
         margin-left: -90px;
 
     }
