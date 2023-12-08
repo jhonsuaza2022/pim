@@ -693,31 +693,31 @@ footer{
     }
     
     .info2-img img {
-        margin-top: -430px;
-        margin-left: -295px;
+        margin-top: -400px;
+        margin-left: -245px;
         height:250px;
         width: 300px;
         float: left;
     }
     .info2-txt{
         padding: 0px;
-        margin-left: 0px;
+        margin-left: 50px;
         margin-top: -290px;
         background-color: #999;
         width: 70%;
     }
     .info2-txt h4{
         font-size: 25px;
-        margin-top: 0px;
+        margin-top: 70px;
         width: 100%;
-        margin-left: -90px;
+        margin-left: 70px;
         background-color: burlywood;
         margin-bottom: 0px;
     }
     .info2-txt p{
         background-color: #1ab152;
         width: 100%;
-        margin-left: -90px;
+        margin-left: 70px;
 
     }
     /*TERCERA IMAGEN Y TEXTO RESPONSIVE*/
