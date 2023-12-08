@@ -702,7 +702,7 @@ footer{
     .info2-txt{
         padding: 0px;
         margin-left: 65px;
-        margin-top: -180px;
+        margin-top: -130px;
         background-color: #999;
         width: 70%;
     }
@@ -716,8 +716,8 @@ footer{
     }
     .info2-txt p{
         background-color: #1ab152;
-        width: 100%;
-        margin-left: 70px;
+        width: 140%;
+        margin-left: 0px;
 
     }
     /*TERCERA IMAGEN Y TEXTO RESPONSIVE*/
