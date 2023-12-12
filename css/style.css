@@ -684,12 +684,13 @@ footer{
         margin-left: -30px;
     }
     .info-txt p{
-        margin-left: -20px;
-        width: 140%;
+        margin-left: -40px;
+        width: 180%;
+        
     }
     /*SEGUNDA IMAGEN Y TEXTO RESPONSIVE*/
     .info2{
-        margin-top: 320px;
+        margin-top: 350px;
     }
     
     .info2-img img {
@@ -732,23 +733,19 @@ footer{
     .info3-txt{
         width: 70%;
         margin-left: -43px;
-       
-        
     }
     .info3-txt h4{
         font-size: 25px;
-        background-color: #999;
         width: 180%;
         margin-left: -55px;
     }
     .info3-txt p{
-        margin-left: -45px;
+        margin-left: -55px;
         width: 180%;
-        background-color: #25d366;
     }
 /*CUARTA IMAGEN Y TEXTO RESPONSIVE*/
     .info4{
-        margin-top: -120px;
+        margin-top: -110px;
     }
 
     .info4-img img {
@@ -758,7 +755,7 @@ footer{
         width: 300px;
         */
         margin-top: -250px;
-        margin-left: -255px;
+        margin-left: -265px;
         height:250px;
         width: 300px;
         float: left;
