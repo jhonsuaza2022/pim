@@ -493,4 +493,24 @@ figcaption{
         font-size: 1rem;
         padding: 10px;
     }
+    /*===========MOTORES===============*/
+    .resumen_motores_img{
+        display: block;
+    }
+    /*==========FILTROS=================*/
+    .resumen_filtros_img{
+        display: block;
+    }
+    .resumen_sistema_aire_img{
+        display: block;
+    }
+    .resumen_frenos_img{
+        display: block;
+    }
+    .resumen_maquinaria_pesada_img{
+        display: block;
+    }
+    .resumen_mangueras_img{
+        display: block;
+    }
 }
