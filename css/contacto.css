@@ -207,6 +207,57 @@ section#hero{
         left: 2rem;
         width: unset;
     }
+    .footer .logo-2{
+        width: 70px;
+        height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+     }
+    .links .datos a{
+      font-size: 15px;  
+    }
+    .links .aliado, .marca{
+        display: none;
+    }
+    #hero h1{
+        font-size: 2.8rem;
+    }
+    #hero p{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .mapa{
+        margin-top: -15px!important;
+    }
+    .principal{
+        display: block!important;
+    }
+    .telefonos li{
+        width: 250%;
+    }
+    .principal h3{
+        width: 180%;
+    }
+    .horario li{
+        width: 550%;
+       
+    }
+    /*=============FORMULARIO=======*/
+    .basico{
+        width: 350%!important;
+    }
+    .boton-enviar{
+        position: absolute;
+        margin-top: 350px;
+    }
+    .basico-1{
+        width: 250%!important;
+        padding-bottom: 60px;
+    }
+    .basico2{
+        width: 140%!important;
+        
+    }
 }
 /*==========================MAPA=============*/
 .mapa{

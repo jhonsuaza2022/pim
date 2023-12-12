@@ -85,23 +85,23 @@
 
                     <div class="form-group ">
                         <label for="nombre">Nombres: <span class="obligatorio">*</span></label>
-                        <input type="text" id="nombre" class="form-control" name="nombre"> 
+                        <input type="text" id="nombre" class="form-control basico" name="nombre"> 
                     </div>
                     <div class="form-group">
                         <label for="apellido">Apellidos:</label>
-                        <input type="text" id="apellido" class="form-control" name="apellido"> 
+                        <input type="text" id="apellido" class="form-control basico" name="apellido"> 
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" id="email" class="form-control" name="email"> 
+                        <input type="email" id="email" class="form-control basico" name="email"> 
                     </div>
                     <div class="form-group">
                         <label for="departamento">Departamento:</label>
-                        <input type="text" id="departamento" class="form-control" name="departamento"> 
+                        <input type="text" id="departamento" class="form-control basico" name="departamento"> 
                     </div>
 
                     <br>
-                    <input type="submit" value="Enviar" class="btn btn-dark" onclick="validarFormulario()">
+                    <input type="submit" value="Enviar" class="btn btn-dark boton-enviar" onclick="validarFormulario()">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
                 
@@ -109,20 +109,20 @@
             <div class="col-4">
                 <div class="form-group">
                     <label for="telefono">Telefono: <span class="obligatorio">*</span></label>
-                    <input type="number" id="telefono" class="form-control" name="telefono" > 
+                    <input type="number" id="telefono" class="form-control basico" name="telefono" > 
                 </div>
                 <div class="form-group">
                     <label for="empresa">Empresa: <span class="obligatorio">*</span></label>
-                    <input type="text" id="empresa" class="form-control" name="empresa" > 
+                    <input type="text" id="empresa" class="form-control basico" name="empresa" > 
                 </div>
                 <div class="form-group">
                     <label for="ciudad">Ciudad:</label>
-                    <input type="text" id="ciudad" class="form-control" name="ciudad"> 
+                    <input type="text" id="ciudad" class="form-control basico" name="ciudad"> 
                 </div>
-                <div class="form-group">
+                <div class="form-group basico-1">
                     <label for="info">Como Podemos Ayudarte: <span class="obligatorio">*</span></label>
                     <br>
-                    <textarea name="informacion" id="info" rows="4" placeholder="Escribenos Aqui" class="form-control"></textarea>
+                    <textarea name="informacion" id="info" rows="4" placeholder="Escribenos Aqui " class="form-control basico2"></textarea>
                 </div>
                 
             </div>
@@ -155,7 +155,7 @@
         </ul>
     </div>
     <div class="links">
-        <h4>Marcas</h4>
+        <h4 class="marca">Marcas</h4>
         <ul>
             <div class="aliado">
                 <li><img src="img/aliados/caterpillar.png" alt="" width="80" height="50"></li>
