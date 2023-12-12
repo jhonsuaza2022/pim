@@ -684,7 +684,7 @@ footer{
         margin-left: -30px;
     }
     .info-txt p{
-        margin-left: -40px;
+        margin-left: -50px;
         width: 180%;
         
     }
@@ -749,11 +749,6 @@ footer{
     }
 
     .info4-img img {
-        /*margin-top: -250px;
-        margin-left: -360px;
-        height:250px;
-        width: 300px;
-        */
         margin-top: -250px;
         margin-left: -265px;
         height:250px;
@@ -767,16 +762,14 @@ footer{
     }
     .info4-txt h4{
         font-size: 25px;
-        margin-top: 310px;
-        width: 85%;
-        margin-left: 35px;
-        background-color: #999;
+        margin-top: 280px;
+        width: 140%;
+        margin-left: -20px;
     }
     .info4-txt p{
         margin-top: -15px;
-        margin-left: 40px;
+        margin-left: -20px;
         width: 140%;
-        background-color: #1ab152;
         
     }
     /*PRIMER IMAGEN Y TEXTO RESPONSIVE*/
@@ -786,7 +779,7 @@ footer{
     }
     .info5-img img {
         margin-top: -120px;
-        margin-left: -45px;
+        margin-left: -105px;
         height:250px;
         width: 300px;
     }
@@ -796,9 +789,9 @@ footer{
     }
     .info5-txt h4{
         font-size: 25px;
-        
-        width: 70%;
-        margin-left: 28px;
+        background-color: #1ab152;
+        width: 130%;
+        margin-left: -32px;
     }
     .info5-txt p{
         margin-left: 0px;
