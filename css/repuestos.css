@@ -482,12 +482,18 @@ figcaption{
 }
 @media(max-width: 576px){
     .contenedor{
-        background-color: #999;
+        
         margin-top: 0px;
     }
     .contenido-principal{
         margin-top: -13px;
-        margin-left: -13px;
+        margin-left: -14px;
+    }
+    .carousel{
+        margin-top: -10px;
+        margin-left: -14px;
+        
+       
     }
     
     .contenido-principal img{
