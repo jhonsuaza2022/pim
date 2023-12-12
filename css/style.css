@@ -739,7 +739,7 @@ footer{
         font-size: 25px;
     }
     .info3-txt p{
-        margin-left: 0px;
+        margin-left: -70px;
         width: 140%;
     }
 /*CUARTA IMAGEN Y TEXTO RESPONSIVE*/
@@ -748,10 +748,16 @@ footer{
     }
 
     .info4-img img {
-        margin-top: -250px;
+        /*margin-top: -250px;
         margin-left: -360px;
         height:250px;
         width: 300px;
+        */
+        margin-top: -450px;
+        margin-left: -255px;
+        height:250px;
+        width: 300px;
+        float: left;
     }
     .info4-txt{
         width: 100%;
