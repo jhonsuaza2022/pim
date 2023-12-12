@@ -492,11 +492,13 @@ figcaption{
     
     .contenido-principal img{
         width: 100%;
-        background-color: #25d366;
+        
     }
     .contenido-principal__contenedor{
-        background-color: #ac3939;
         width: 100%;
+    }
+    .contenido-principal__resumen{
+        text-align: center;
     }
     
     .footer .logo-2{
@@ -517,6 +519,10 @@ figcaption{
     #hero p{
         font-size: 1rem;
         padding: 10px;
+    }
+    .contenido-principal__titulo{
+        
+        text-align: center;
     }
     /*===========MOTORES===============*/
     .resumen_motores_img{
