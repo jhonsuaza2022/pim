@@ -463,6 +463,22 @@ figcaption{
     background-size: cover;
     border: 10px solid #dfdcdf27;
     border-radius: 4px;
-    
-
+}
+@media(max-width: 992px){
+    #hero h1{
+        font-size: 3.5rem;
+    }
+    #hero p{
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+@media(max-width: 576px){
+    #hero h1{
+        font-size: 2.8rem;
+    }
+    #hero p{
+        font-size: 1rem;
+        padding: 10px;
+    }
 }
