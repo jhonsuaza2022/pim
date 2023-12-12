@@ -240,7 +240,9 @@ section#hero{
     }
     .horario li{
         width: 550%;
-       
+    }
+    .oficina li{
+        width: 350%;
     }
     /*=============FORMULARIO=======*/
     .basico{
