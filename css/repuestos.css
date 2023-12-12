@@ -474,6 +474,23 @@ figcaption{
     }
 }
 @media(max-width: 576px){
+    .contenedor{
+        background-color: #999;
+        margin-top: 0px;
+    }
+    .contenido-principal{
+        margin-top: -13px;
+        margin-left: -13px;
+    }
+    
+    .contenido-principal img{
+        width: 100%;
+        background-color: #25d366;
+    }
+    .contenido-principal__contenedor{
+        background-color: #ac3939;
+        width: 100%;
+    }
     .footer .logo-2{
         width: 220px;
         height: 100px;
