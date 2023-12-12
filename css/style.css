@@ -737,10 +737,14 @@ footer{
     }
     .info3-txt h4{
         font-size: 25px;
+        background-color: #999;
+        width: 180%;
+        margin-left: -45px;
     }
     .info3-txt p{
-        margin-left: -70px;
-        width: 140%;
+        margin-left: -45px;
+        width: 180%;
+        background-color: #25d366;
     }
 /*CUARTA IMAGEN Y TEXTO RESPONSIVE*/
     .info4{
@@ -753,7 +757,7 @@ footer{
         height:250px;
         width: 300px;
         */
-        margin-top: -450px;
+        margin-top: -320px;
         margin-left: -255px;
         height:250px;
         width: 300px;
@@ -769,11 +773,13 @@ footer{
         margin-top: 310px;
         width: 85%;
         margin-left: 35px;
+        background-color: #999;
     }
     .info4-txt p{
         margin-top: -15px;
         margin-left: 40px;
-        width: 85%;
+        width: 140%;
+        background-color: #1ab152;
         
     }
     /*PRIMER IMAGEN Y TEXTO RESPONSIVE*/
