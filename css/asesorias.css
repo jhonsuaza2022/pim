@@ -185,18 +185,33 @@ header a:hover{
     .links .datos a{
       font-size: 15px;  
     }
-    .links .aliado, h4{
+    .links .aliado, .marca{
         display: none;
     }
     #hero h1{
-        font-size: 2.8rem;
+        font-size: 2.8rem!important;
     }
     #hero p{
-        font-size: 1rem;
-        padding: 10px;
+        font-size: 1rem!important;
+        padding: 10px!important;
     }
-    .servicio_principal{
+    .contenedor_principal{   
+        margin-top: 0px!important;
         display: block!important;
+    }
+   .servicio_principal{
+        display: block!important;
+   }
+    h3{
+        font-size: 30px!important;  
+    }
+    .img{
+        width: 100%!important;
+        background-color: #dfdcdf!important;
+    }
+    .img img{
+        margin-left: 15%;
+        
     }
 }
 /*===================== HERO ================*/
