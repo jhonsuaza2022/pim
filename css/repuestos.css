@@ -474,6 +474,18 @@ figcaption{
     }
 }
 @media(max-width: 576px){
+    .footer .logo-2{
+        width: 220px;
+        height: 100px;
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+    .links .datos a{
+      font-size: 15px;  
+    }
+    .links .aliado, .h4{
+        display: none;
+    }
     #hero h1{
         font-size: 2.8rem;
     }
