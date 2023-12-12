@@ -222,7 +222,19 @@ section#hero{
         display: block!important;
     }
     h3{
-        font-size: 30px!important;  
+        font-size: 30px!important;
+        background-color: #1ab152; 
+    }
+    .contenedor_principal{
+        margin-top: 0px!important;
+    }
+    .img{
+        width: 100%!important;
+        background-color: #dfdcdf!important;
+    }
+    .img img{
+        margin-left: 18%;
+        
     }
 }
 /*========================CONTENEDOR PRINCIPAL===========*/
