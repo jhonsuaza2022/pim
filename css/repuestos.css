@@ -498,16 +498,17 @@ figcaption{
         background-color: #ac3939;
         width: 100%;
     }
+    
     .footer .logo-2{
-        width: 220px;
-        height: 100px;
-        margin-left: 80px;
-        margin-right: 20px;
-    }
+        width: 70px;
+        height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+     }
     .links .datos a{
       font-size: 15px;  
     }
-    .links .aliado, .h4{
+    .links .aliado, h4{
         display: none;
     }
     #hero h1{

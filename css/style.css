@@ -643,12 +643,6 @@ footer{
         left: 2rem;
         width: unset;
     }
-    .footer .logo-2{
-        width: 220px;
-        height: 100px;
-        margin-left: 80px;
-        margin-right: 20px;
-    }
     .links .datos a{
       font-size: 15px;  
     }
