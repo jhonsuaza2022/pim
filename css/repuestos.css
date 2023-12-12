@@ -472,6 +472,13 @@ figcaption{
         font-size: 1rem;
         padding: 10px;
     }
+    .titulo-txt .txt h4{
+        font-size: 12px;
+    }
+    .footer .logo-2{
+        width: 250px;
+        height: 120px;
+    }
 }
 @media(max-width: 576px){
     .contenedor{
