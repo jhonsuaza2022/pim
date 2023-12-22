@@ -28,3 +28,34 @@ function validarFormulario() {
     });
     }
 }
+// =====================MODAL COTIZACION============
+const btnLanzarModal = document.querySelector('#lanzar-modal');
+const btnOcultarModal = document.querySelector('#ocultar-modal');
+
+const contModal = document.querySelector('.contenedor-modal');
+
+btnLanzarModal.addEventListener('click', (e) => {
+    e.preventDefault();
+    contModal.classList.add('mostrar');
+})
+
+btnOcultarModal.addEventListener('click', (e) => {
+    e.preventDefault();
+    contModal.classList.remove('mostrar');
+})
+
+// =====================MODAL QUEJAS============
+const btnLanzarModal2 = document.querySelector('#lanzar-modal2');
+const btnOcultarModal2 = document.querySelector('#ocultar-modal2');
+
+const contModal2 = document.querySelector('.modal2');
+
+btnLanzarModal2.addEventListener('click', (e) => {
+    e.preventDefault();
+    contModal2.classList.add('mostrar');
+});
+
+btnOcultarModal2.addEventListener('click', (e) => {
+    e.preventDefault();
+    contModal2.classList.remove('mostrar');
+});
