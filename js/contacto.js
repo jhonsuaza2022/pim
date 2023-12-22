@@ -22,10 +22,7 @@ function validarFormulario() {
         icon: 'success',
         title: 'Éxito',
         text: 'Formulario enviado correctamente.',
-    }).then(function () {
-        // Después de hacer clic en "Aceptar", enviar el formulario al servidor
-        formulario.submit();
-    });
+    })
     }
 }
 // =====================MODAL COTIZACION============

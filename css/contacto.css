@@ -430,3 +430,9 @@ hr{
     margin: 15px 0px;
     
 }
+.cierre{
+    position: absolute;
+    left: 350px;
+    font-size: 35px;
+    cursor: pointer;
+}
